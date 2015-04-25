@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/insomnia-logo.png) no-repeat bottom center scroll;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +275,8 @@ a:focus {
 
 #map {
     width: 100%;
-    height: 350px;
+    height: 200px;
+    margin-top: 100px;
 }
 
 @media(min-width:767px) {
@@ -289,6 +290,7 @@ a:focus {
 
     #map {
         height: 400px;
+        margin-top: 250px;
     }
 }
 

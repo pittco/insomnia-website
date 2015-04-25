@@ -1,5 +1,27 @@
+.intro {
+  /* background: url(../img/background.webp) no-repeat bottom center scroll; */
+  background: #000000;
+}
+
 @media(min-width:767px) {
   a.buy-tickets {
     font-size: 250%;
-  } 
+  }
+
+  #map {
+    margin-top: 0;
+  }
+}
+
+#map {
+  height: 200px;
+  margin-top: 100px;
+}
+
+.price {
+  padding-top: 2em;
+}
+
+#tickets {
+  height: 100vh;
 }
