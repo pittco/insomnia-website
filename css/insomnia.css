@@ -5,23 +5,34 @@
 
 @media(min-width:767px) {
   a.buy-tickets {
-    font-size: 250%;
-  }
-
-  #map {
-    margin-top: 0;
+    font-size: 200%;
   }
 }
 
 #map {
-  height: 200px;
-  margin-top: 100px;
+  height: 50vh;
+  min-height: 325px; 
+  width: 100%;
+  margin-top: 0; 
 }
 
 .price {
   padding-top: 2em;
 }
 
+#about {
+  height: 100vh;
+}
+
 #tickets {
   height: 100vh;
 }
+
+#parking-map {
+  width: 100%; 
+}
+
+#contact {
+  height: 100vh;
+}
+
