@@ -3,9 +3,18 @@
   background: #000000;
 }
 
+.table-responsive table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media(min-width:767px) {
   a.buy-tickets {
-    font-size: 200%;
+    font-size: 150%;
+  }
+
+  .table-responsive table {
+    width: 50vh;
   }
 }
 
