@@ -1,6 +1,43 @@
-.intro {
-  /* background: url(../img/background.webp) no-repeat bottom center scroll; */
-  background: #000000;
+.color-box {
+  width: 100px;
+  height: 75px;
+}
+
+body, .intro {
+  background: #03090C;
+  color: #F1F0F0;
+}
+
+.intro h3 {
+  margin-bottom: 0px;
+}
+
+a, a:hover, a:focus {
+  color: #163456;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #163456;
+}
+
+.navbar a:hover, a:focus {
+  color: #7E868A;
+}
+
+.btn-default {
+  color: #F1F0F0;
+  border: 1px solid #7E868A; 
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #163456;
+  color: #F1F0F0;
+  background-color: #163456;
 }
 
 .table-responsive table {
@@ -15,6 +52,14 @@
 
   .table-responsive table {
     width: 50vh;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    background-color: #163456;
+  }
+
+  .navbar {
+    background-color: #03090C;
   }
 }
 
@@ -44,4 +89,3 @@
 #contact, #schedule {
   height: 100vh;
 }
-
