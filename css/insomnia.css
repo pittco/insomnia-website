@@ -89,3 +89,7 @@ a:hover, a:focus {
 #contact, #schedule {
   height: 100vh;
 }
+
+p.address {
+  font-size: 175%;
+}
