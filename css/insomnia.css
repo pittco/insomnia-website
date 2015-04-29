@@ -50,6 +50,20 @@ a:hover, a:focus {
     font-size: 150%;
   }
 
+  .intro {
+    background-image: url(../img/insomnia-logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  body, .intro {
+    background-color: #000000;
+  }
+
+  .intro .intro-text {
+    display: none;
+  }
+
   .table-responsive table {
     width: 50vh;
   }
