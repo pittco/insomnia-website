@@ -74,11 +74,7 @@ a:hover, a:focus {
   padding-top: 2em;
 }
 
-#about {
-  height: 100vh;
-}
-
-#tickets {
+header.intro, #about, #tickets, #contact, #schedule  {
   height: 100vh;
 }
 
@@ -86,10 +82,12 @@ a:hover, a:focus {
   width: 100%; 
 }
 
-#contact, #schedule {
-  height: 100vh;
-}
-
 p.address {
   font-size: 175%;
+}
+
+td.event-day {
+  text-align: left;
+  font-size: 120%;
+  font-weight: bold;
 }
