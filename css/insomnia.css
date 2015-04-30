@@ -50,20 +50,6 @@ a:hover, a:focus {
     font-size: 150%;
   }
 
-  .intro {
-    background-image: url(../img/insomnia-logo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-  body, .intro {
-    background-color: #000000;
-  }
-
-  .intro .intro-text {
-    display: none;
-  }
-
   .table-responsive table {
     width: 50vh;
   }
@@ -88,8 +74,8 @@ a:hover, a:focus {
   padding-top: 2em;
 }
 
-header.intro, #about, #tickets, #contact, #schedule  {
-  height: 100vh;
+header.intro {
+  min-height: 100vh;
 }
 
 #parking-map {
