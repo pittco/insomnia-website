@@ -28,32 +28,3 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-// Google Maps Scripts
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-
-function init() {
-    // Basic options for a simple Google Map
-    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    var mapOptions = {
-        zoom: 16,
-        center: new google.maps.LatLng(40.1148080, -79.8321990), 
-        scrollwheel: true,
-        draggable: true,
-    };
-
-    // Get the HTML DOM element that will contain your map 
-    // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('map');
-
-    // Create the Google Map using out element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
-
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var myLatLng = new google.maps.LatLng(40.1148080, -79.8321990);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map
-    });
-}
